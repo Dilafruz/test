@@ -1,0 +1,27 @@
+1)
+
+git config --global user.name "Ikromkhuja"
+
+git config --global user.email "ikrom_2701@mail.ru"
+
+2) 
+
+root@debian:/home/ikrom#  cd ../../
+cd /var/www
+
+#    git clone https://github.com/Dilafruz/test.git           var/www ni ichida test degan papka 
+
+
+cd test
+git init
+
+ cp /home/sharedfolder/ikrom.html /var/www/test/
+ cp /var/www/test
+ git add ikrom.html
+ git commit -m "ikrom.htmlni qo'shdim" 
+ git push https://github.com/Dilafruz/test 
+ 
+
+
+
+
